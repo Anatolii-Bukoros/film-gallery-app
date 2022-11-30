@@ -32,7 +32,7 @@ export const Carousel = ({ images }) => {
             {index === current && (
               <img
                 src={image}
-                alt='movie image'
+                alt='movie'
                 className="image"
               />
             )}
