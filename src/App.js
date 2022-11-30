@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="container">
-      {/* <Carousel images={CarouselData} /> */}
+      <Carousel images={CarouselData} />
       <div className="auth-form">
         {
           currentForm === 'login'
